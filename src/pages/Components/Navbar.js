@@ -147,7 +147,7 @@ const Navbar = () => {
           <span className='text-3xl hidden md:block xl:hidden mr-3 ' ><i className={`fa fa-${navitems}`} onClick={Menu}></i></span>
         </div>
         {/* Mobile and Tablet view */}
-        <ul className={` xl:hidden   z-[-1] fixed  bg-white  text-black  w-[200px] h-full left-0   py-4  pl-7 opacity-100 ${display} top-[59px] md:top-[104px] duration-500 by-3  before:content-[''] before:absolute before:h-full before:w-[100vw]  before:bg-black before:opacity-[0.5] before:z-[-1] before:left-[200px] before:top-[0] shadow-inner  `}  >
+        <ul className={` xl:hidden   z-[-1] fixed  bg-white  text-black  w-[200px] h-full left-0   py-4  pl-7 opacity-100 ${display} top-[59px] md:top-[60px] duration-500 by-3  before:content-[''] before:absolute before:h-full before:w-[100vw]  before:bg-black before:opacity-[0.5] before:z-[-1] before:left-[200px] before:top-[0] shadow-inner  `}  >
           <div className='mt-[1px] mb-[1px]'>
             <li className='mb-1'><Link href="#" className="bg-blue-900 px-4 py-2 text-white font-bold">LOGIN</Link></li>
             <li><Link href="/" className=' text-xs font-bold'>01-Mar-2023[09:16:48]</Link></li>
