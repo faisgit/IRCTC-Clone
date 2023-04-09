@@ -24,7 +24,7 @@ const Navbar = () => {
         className=" bg-blue-900 text-white md:bg-white md:text-black p-3 flex justify-between items-center shadow-lg w-screen fixed top-0 before:content-[''] before:absolute before:left-[0] before:h-[100%] before:w-[100%] before:bg-blue-900 md:before:bg-white before:z-[-1] before:opacity-[0.5]">
         <div className='flex justify-center items-center'>
           <span className='text-3xl md:hidden mr-3 ' ><i className={`fa fa-${navitems}`} onClick={Menu}></i></span>
-          <img src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" className="ml-3 hidden md:block" alt="" />
+          <Image src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" className="ml-3 hidden md:block" alt="" />
           <h1 className='text-xl font-bold block md:hidden'>IRCTC</h1>
         </div>
         <div className='hidden xl:block'>
@@ -141,7 +141,7 @@ const Navbar = () => {
           </ul >
         </div>
         <div className='flex justify-center items-center'>
-          <img src="https://www.irctc.co.in/nget/assets/images/logo.png" className="mr-3 hidden md:block" alt="" />
+          <Image src="https://www.irctc.co.in/nget/assets/images/logo.png" className="mr-3 hidden md:block" alt="" />
           <span className='text-3xl hidden md:block xl:hidden mr-3 ' ><i className={`fa fa-${navitems}`} onClick={Menu}></i></span>
         </div>
         {/* Mobile and Tablet view */}

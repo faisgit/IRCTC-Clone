@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
 
             <div className="mx-20 xl:flex justify-between mb-5 hidden ">
-                <img src='/security.png' className="w-[48rem]" alt="error" />
+                <Image src='/security.png' className="w-[48rem]" alt="error" />
                     <div>
                         <h1 className="text-sm">Copyright Â© 2023 - www.irctc.co.in. All Rights Reserved</h1>
                         <h1 className="text-sm">Designed and Hosted by <a href="#" className="text-blue-500 hover:underline">CRIS Compatible Browsers</a></h1>
