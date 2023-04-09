@@ -10,7 +10,7 @@ const Cards = () => {
       <div className="flex ">
         <div className="block max-w-sm rounded-lg bg-white shadow-xl w-96">
           <a href="#!">
-            <Image className="rounded-t-lg w-96" src="https://www.irctc.co.in/nget/assets/images/exterior.jpg" alt="" />
+            <Image className="rounded-t-lg w-96" src="/exterior.jpg" alt="" />
           </a>
           <div className="p-6">
             <h5 className="mb-2 text-xl font-medium leading-tight text-black">
@@ -35,7 +35,7 @@ const Cards = () => {
       <div className="flex ">
         <div className="block max-w-sm rounded-lg bg-white shadow-lg w-96 ">
           <a href="#!">
-            <Image className="rounded-t-lg w-96" src="https://www.irctc.co.in/nget/assets/images/Thailand.jpg"  alt="" />
+            <Image className="rounded-t-lg w-96" src="/Thailand.jpg"  alt="" />
           </a>
           <div className="p-6">
             <h5 className="mb-2 text-xl font-medium leading-tight text-black">
@@ -59,7 +59,7 @@ const Cards = () => {
       <div className="flex ">
         <div className="block max-w-sm rounded-lg bg-white shadow-lg w-96 ">
           <a href="#!">
-            <Image className="rounded-t-lg w-96" src="https://www.irctc.co.in/nget/assets/images/Kashmir.jpg" alt="" />
+            <Image className="rounded-t-lg w-96" src="/Kashmir.jpg" alt="" />
           </a>
           <div className="p-6">
             <h5 className="mb-2 text-xl font-medium leading-tight text-black">
@@ -84,7 +84,7 @@ const Cards = () => {
       <div className="flex ">
         <div className="block max-w-sm rounded-lg bg-white shadow-lg w-96 ">
           <a href="#!">
-            <Image className="rounded-t-lg w-96" src="https://www.irctc.co.in/nget/assets/images/Bharat_Gaurav.jpg" alt="" />
+            <Image className="rounded-t-lg w-96" src="/Bharat_Gaurav.jpg" alt="" />
           </a>
           <div className="p-6">
             <h5 className="mb-2 text-xl font-medium leading-tight text-black">
@@ -109,7 +109,7 @@ const Cards = () => {
       <div className="flex ">
         <div className="block max-w-sm rounded-lg bg-white shadow-lg w-96 ">
           <a href="#!">
-            <Image className="rounded-t-lg w-96" src="https://www.irctc.co.in/nget/assets/images/Manali.jpg" alt="" />
+            <Image className="rounded-t-lg w-96" src="/Manali.jpg" alt="" />
           </a>
           <div className="p-6">
             <h5 className="mb-2 text-xl font-medium leading-tight text-black">
