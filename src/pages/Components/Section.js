@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Section = () => {
     return (
-        <div className=' flex flex-col xl:flex-row md:items-center bg-white md:bg-hero bg-no-repeat bg-center bg-cover mt-24  h-[46rem]'>
+        <div className=' flex flex-col xl:flex-row md:items-center bg-white md:bg-hero bg-no-repeat bg-center bg-cover mt-20  h-[46rem]'>
             <div className='mx-auto mt-1 md:mt-20 hidden md:flex md:flex-col'>
                 <div className='flex'>
                     <div className='flex items-center bg-blue-900 text-white px-3 py-1 w-[18rem]'>
