@@ -19,7 +19,7 @@ const Cards = () => {
             <p className="mb-4 text-sm text-black ">
               Redefining Royalty, Luxury and Comfort, Maharajas' express takes you on a sojourn to the era of bygone
               stately splendour of princely states. Sylvan furnishings, elegant ambience and modern amenities are
-              amalgamated for an “Experience Unsurpassed”. It has been a winner of “World’s Leading Luxury train” by
+              amalgamated for an “Experience Unsurpassed”. It has been a winner of “World&#39;s Leading Luxury train” by
               World Travel Awards consecutively for last six years.
             </p>
             <button type="button"
@@ -93,7 +93,7 @@ const Cards = () => {
             <p className="mb-4 text-sm  text-black">
               IRCTC operates Bharat Gaurav Tourist Train having AC III-Tier accommodation on train specially designed to
               promote domestic tourism in India. This train runs on various theme based circuits covering pilgrimage and
-              heritage destinations in its itinerary on a 5 days to 20 days trip and showcase India’s rich cultural
+              heritage destinations in its itinerary on a 5 days to 20 days trip and showcase India&#39;s rich cultural
               heritage.
             </p>
             <button type="button"

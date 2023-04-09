@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 const Navbar = () => {
   const [navitems, setNavItems] = useState('bars')
   const [display, setDisplay] = useState('hidden')
@@ -31,114 +32,114 @@ const Navbar = () => {
         <div className='hidden xl:block'>
           <ul className="flex justify-center ">
             <li className="mx-2 text-xs">
-              <a href="#" className="bg-blue-900 px-4 py-2 text-white font-bold">LOGIN</a>
+              <Link href="#" className="bg-blue-900 px-4 py-2 text-white font-bold">LOGIN</Link>
             </li>
-            <li className="mx-2 text-xs"><a href="#">REGISTER</a></li>
-            <li className="mx-2 text-xs"><a href="#">AGENT LOGIN</a></li>
-            <li className="mx-2 text-xs"><a href="#">CONTACT US</a></li>
-            <li className="mx-2 text-xs"><a href="#">ASK DIKSHA</a></li>
+            <li className="mx-2 text-xs"><Link href="#">REGISTER</Link></li>
+            <li className="mx-2 text-xs"><Link href="#">AGENT LOGIN</Link></li>
+            <li className="mx-2 text-xs"><Link href="#">CONTACT US</Link></li>
+            <li className="mx-2 text-xs"><Link href="#">ASK DIKSHA</Link></li>
             <li className="mx-2 text-xs">
-              <a href="#" className="bg-gray-300 py-2 px-4 font-bold">ALERTS</a>
+              <Link href="#" className="bg-gray-300 py-2 px-4 font-bold">ALERTS</Link>
             </li>
             <li className="mx-2 text-xs font-bold">01-Mar-2023[09:16:48]</li>
             <li className="mx-2 text-xs font-bold">
-              <a href="#">A <sup>-</sup></a>
+              <Link href="#">A <sup>-</sup></Link>
             </li>
-            <li className="mx-2 text-xs font-bold"><a href="#">A</a></li>
+            <li className="mx-2 text-xs font-bold"><Link href="#">A</Link></li>
             <li className="mx-2 text-xs font-bold">
-              <a href="#">A<sup>+</sup></a>
+              <Link href="#">A<sup>+</sup></Link>
             </li>
-            <li className="mx-2 text-xs font-bold"><a href="#">हिंदी</a></li>
+            <li className="mx-2 text-xs font-bold"><Link href="#">हिंदी</Link></li>
           </ul>
           <ul className="flex justify-center mt-5 items-center">
             <li className="mx-2">
-              <a href="#" className="text-lg"><i className="fa fa-home text-gray-500" aria-hidden="true"></i></a>
+              <Link href="#" className="text-lg"><i className="fa fa-home text-gray-500" aria-hidden="true"></i></Link>
             </li>
             <li className="mx-2 text-xs group inline-block relative">
-              <a href="#" className="bg-blue-900 px-4 py-2 text-white font-bold  ">IRCTC EXCLUSIVE</a>
+              <Link href="#" className="bg-blue-900 px-4 py-2 text-white font-bold  ">IRCTC EXCLUSIVE</Link>
 
               <div className="absolute  text-gray-700 hidden   group-hover:block text-sm ">
                 <ul className=" shadow-2xl mt-4">
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">IRCTC eWallet</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">IRCTC-iPay</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">e-Gift Vouchers</a></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">IRCTC eWallet</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">IRCTC-iPay</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">e-Gift Vouchers</Link></li>
 
                 </ul>
               </div>
             </li>
             <li className="mx-2 text-xs group inline-block relative">
-              <a href="#" className="underline font-bold text-orange-500">TRAINS</a>
+              <Link href="#" className="underline font-bold text-orange-500">TRAINS</Link>
 
               <div className="absolute  text-gray-700 mt-[-7px] hidden group-hover:block text-sm ">
                 <span className="mdi mdi-triangle mx-8 text-orange-500" />
                 <ul className="mx-3 mt-[-8px] shadow-2xl">
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> BookTicket</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> ForeignTourist Booking</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Connecting Journey Booking</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> IRCTC TRAINS</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> Cancel Ticket</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> PNREnquiry</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> Train Schedule</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> Track Your Train</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> FTR Coach/Train</a></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> BookTicket</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> ForeignTourist Booking</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Connecting Journey Booking</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> IRCTC TRAINS</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> Cancel Ticket</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> PNREnquiry</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> Train Schedule</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> Track Your Train</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#"> FTR Coach/Train</Link></li>
                 </ul>
               </div>
 
             </li>
-            <li className="mx-2 text-xs"><a href="#" className="font-bold">BUSES</a></li>
-            <li className="mx-2 text-xs"><a href="#" className="font-bold">FLIGHT</a></li>
-            <li className="mx-2 text-xs"><a href="#" className="font-bold">HOTELS</a></li>
+            <li className="mx-2 text-xs"><Link href="#" className="font-bold">BUSES</Link></li>
+            <li className="mx-2 text-xs"><Link href="#" className="font-bold">FLIGHT</Link></li>
+            <li className="mx-2 text-xs"><Link href="#" className="font-bold">HOTELS</Link></li>
             <li className="mx-2 text-xs group inline-block relative">
-              <a href="#" className="font-bold">HOLIDAYS</a>
+              <Link href="#" className="font-bold">HOLIDAYS</Link>
 
               <div className="absolute  text-gray-700 hidden   group-hover:block text-sm ">
                 <ul className=" shadow-2xl mt-[-8px]">
                   <span className="mdi mdi-triangle mx-8 text-orange-500"></span>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Tourist Trains</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Tour Packeges</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Stays</a></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Tourist Trains</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Tour Packeges</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Stays</Link></li>
 
                 </ul>
               </div>
 
             </li>
             <li className="mx-2 text-xs  group inline-block relative">
-              <a href="#" className="font-bold">LOYALTY</a>
+              <Link href="#" className="font-bold">LOYALTY</Link>
 
               <div className="absolute  text-gray-700 hidden   group-hover:block text-sm transition ease-in-out duartion-700 ">
                 <ul className=" shadow-2xl mt-[-8px]">
                   <span className="mdi mdi-triangle mx-8 text-orange-500"></span>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">IRCTC SBI Credit Card</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">IRCTC BOB Credit Card</a></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">IRCTC SBI Credit Card</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">IRCTC BOB Credit Card</Link></li>
                 </ul>
               </div>
             </li >
             <li className="mx-2 text-xs group inline-block relative">
-              <a href="#" className="font-bold">MEALS</a>
+              <Link href="#" className="font-bold">MEALS</Link>
 
               <div className="absolute  text-gray-700 hidden   group-hover:block text-sm ">
                 <ul className=" shadow-2xl mt-[-8px]">
                   <span className="mdi mdi-triangle mx-8 text-orange-500"></span>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Ordered Food-E-Catering</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Cooked Food Menu</a></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Ordered Food-E-Catering</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Cooked Food Menu</Link></li>
                 </ul>
               </div>
 
             </li >
             <li className="mx-2 text-xs group inline-block relative">
-              <a href="#" className="font-bold">PROMOTION</a>
+              <Link href="#" className="font-bold">PROMOTION</Link>
 
               <div className="absolute  text-gray-700 hidden   group-hover:block text-sm ">
                 <ul className=" shadow-2xl mt-[-8px]">
                   <span className="mdi mdi-triangle mx-8 text-orange-500"></span>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Ordered Food-E-Catering</a></li>
-                  <li className="w-60"> <a className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Cooked Food Menu</a></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Ordered Food-E-Catering</Link></li>
+                  <li className="w-60"> <Link className="rounded-b bg-white hover:bg-orange-100 font-semibold py-2 px-4 block whitespace-no-wrap" href="#">Cooked Food Menu</Link></li>
                 </ul>
               </div>
 
             </li >
 
-            <li className="mx-2 text-xs"><a href="#" className="font-bold">MORE</a></li>
+            <li className="mx-2 text-xs"><Link href="#" className="font-bold">MORE</Link></li>
           </ul >
         </div>
         <div className='flex justify-center items-center'>
@@ -148,25 +149,25 @@ const Navbar = () => {
         {/* Mobile and Tablet view */}
         <ul className={` xl:hidden   z-[-1] fixed  bg-white  text-black  w-[200px] h-full left-0   py-4  pl-7 opacity-100 ${display} top-[59px] md:top-[104px] duration-500 by-3  before:content-[''] before:absolute before:h-full before:w-[100vw]  before:bg-black before:opacity-[0.5] before:z-[-1] before:left-[200px] before:top-[0] shadow-inner  `}  >
           <div className='mt-[1px] mb-[1px]'>
-            <li className='mb-1'><a href="#" className="bg-blue-900 px-4 py-2 text-white font-bold">LOGIN</a></li>
-            <li><a href="/" className=' text-xs font-bold'>01-Mar-2023[09:16:48]</a></li>
+            <li className='mb-1'><Link href="#" className="bg-blue-900 px-4 py-2 text-white font-bold">LOGIN</Link></li>
+            <li><Link href="/" className=' text-xs font-bold'>01-Mar-2023[09:16:48]</Link></li>
           </div>
           <hr className='mr-[13px] mt-[6px] ' />
-          <li className='text-sm mt-4'><a href="#" className="bg-blue-900 px-4 py-2 text-white font-bold  ">IRCTC EXCLUSIVE</a></li>
-          <li className='text-sm mt-4'><a href="#" className="underline font-bold text-orange-500">TRAINS</a></li>
-          <li className="mt-4 text-sm"><a href="#">BUSES</a></li>
-          <li className="mt-4 text-sm"><a href="#">FLIGHT</a></li>
-          <li className="mt-4 text-sm"><a href="#">HOTELS</a></li>
-          <li className="mt-4 text-sm"><a href="#">HOLIDAYS</a></li>
-          <li className="mt-4 text-sm"><a href="#">LOYALITY</a></li>
-          <li className="mt-4 text-sm"><a href="#">MEALS</a></li>
-          <li className="mt-4 text-sm"><a href="#">PROMOTIONS</a></li>
-          <li className="mt-4 text-sm"><a href="#">MORE</a></li>
-          <li className="mt-4 text-sm"><a href="#">CONTACT US</a></li>
-          <li className="mt-4 text-sm"><a href="#">AGENT LOGIN</a></li>
-          <li className="mt-4 text-sm"><a href="#">ASK DISHA</a></li>
-          <li className="mt-4 text-sm"><a href="#">HOLIDAYS</a></li>
-          <li className='mt-4 text-sm'><a href="#">हिंदी</a></li>
+          <li className='text-sm mt-4'><Link href="#" className="bg-blue-900 px-4 py-2 text-white font-bold  ">IRCTC EXCLUSIVE</Link></li>
+          <li className='text-sm mt-4'><Link href="#" className="underline font-bold text-orange-500">TRAINS</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">BUSES</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">FLIGHT</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">HOTELS</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">HOLIDAYS</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">LOYALITY</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">MEALS</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">PROMOTIONS</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">MORE</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">CONTACT US</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">AGENT LOGIN</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">ASK DISHA</Link></li>
+          <li className="mt-4 text-sm"><Link href="#">HOLIDAYS</Link></li>
+          <li className='mt-4 text-sm'><Link href="#">हिंदी</Link></li>
 
         </ul>
         <div className="flex justify-center items-center mr-2  md:hidden ">
