@@ -147,7 +147,7 @@ const Section = () => {
             {/* Mobile View */}
             <div className=' block md:hidden bg-blue-900 h-16 top-14 w-full mt-[-36px]'>
             </div>
-            <div className=' block md:hidden bg-white mt-[-62px] rounded-t-3xl px-4 pt-6'>
+            <div className=' block md:hidden bg-white mt-[96px] rounded-t-3xl px-4 pt-6'>
                 <form action="#" className='flex flex-col mb-5 '>
                     <div className='flex items-center border hover:outline-1 hover:outline-blue-900 border-solid border-slate-700 rounded hover:border-blue-900'>
                         <i className="fa fa-location-arrow text-blue-900   px-2 ">
