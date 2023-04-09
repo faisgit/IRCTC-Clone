@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const Cards = () => {
   return (
     <div className=" hidden md:flex flex-col justify-center items-center mt-7  mb-10 bg-slate-200 px-24 py-10    ">

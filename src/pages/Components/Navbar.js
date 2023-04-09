@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import Image from 'next/image'
 const Navbar = () => {
   const [navitems, setNavItems] = useState('bars')
   const [display, setDisplay] = useState('hidden')

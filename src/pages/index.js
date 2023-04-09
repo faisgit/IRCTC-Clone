@@ -1,4 +1,5 @@
 import Head from 'next/head'
+
 import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import Navbar from './Components/Navbar'
 import Section from './Components/Section'
