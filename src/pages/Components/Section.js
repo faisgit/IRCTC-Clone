@@ -8,21 +8,21 @@ const Section = () => {
                 <div className='flex'>
                     <div className='flex items-center bg-blue-900 text-white px-3 py-1 w-[18rem]'>
 
-                        <Image src="https://www.irctc.co.in/nget/assets/images/icons/pnr.png" alt="" className="" />
+                        <Image src="/pnr.png" alt="" className="" />
                         <h1 className="mx-auto "><a href="#" className="text-xs font-bold">PNR STATUS</a></h1>
 
                     </div>
                     <div className='flex items-center bg-blue-900 text-white px-3 py-1 mx-4 w-[20rem]'>
-                        <Image src="https://www.irctc.co.in/nget/assets/images/icons/chart.png" alt="" className="" />
+                        <Image src="/chart.png" alt="" className="" />
                         <h1 className="mx-auto"><a href="#" className="text-xs font-bold">CHARTS/VACANCY</a></h1>
                     </div>
                 </div>
 
                 <div className='bg-white w-[39rem] h-[31rem] flex flex-col p-3' >
                     <div className='  flex justify-between'>
-                        <Image src="https://www.irctc.co.in/nget/assets/images/logo_top_eng.jpg" alt="" />
+                        <Image src="/logo_top_eng.jpg" alt="" />
                         <h1 className="text-xl text-blue-900 font-bold mt-2">BOOK TICKET</h1>
-                        <Image src="https://www.irctc.co.in/nget/assets/images/G20_Logo.png" alt="" className="mt-2" />
+                        <Image src="/G20_Logo.png" alt="" className="mt-2" />
                     </div>
                     {/* Main Form  */}
                     <form action='#' className='px-4 py-5'>
